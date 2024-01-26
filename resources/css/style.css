@@ -1,9 +1,9 @@
 body {
 
   width: 100%;
-  color: rgb(199, 199, 199);
+  color: rgb(233, 233, 233);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 section #form {
@@ -20,14 +20,14 @@ section #form {
 
 form {
   text-align: left;
-  padding: 16px;
+  padding: 20px;
   margin: 0 0 30px;
 }
 
 .title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
   padding-bottom: 26px;
 }
@@ -61,12 +61,19 @@ input {
   font-size: 11px;
 }
 
-/* need help aligning input checkboxes with code below*/
+.service{
+  margin: 20px 0px;
+}
 
-input[type=checkbox] {
-  vertical-align: px;
-  margin: 0;
+.service label{
+  display: block;
+}
+
+.service input[type=checkbox] {
+  width: 15px;
+  height: 15px;
   padding: 0;
+  margin: 0px 10px;
 }
 
 footer {

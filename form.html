@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Practice HTML Form</title>
+  <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+  <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <section id="form">
+      <img src="resources\images\Essentially-Maria-white-logo.png" id="logo" alt="Brand logo" />
+
+      <!-- Form begins -->
+
+      <form action="submission.html" method="POST">
+        <h1 class="title">Contact Form</h1>
+
+        <!-- input for username -->
+
+        <section class="user-name">
+
+          <label for="name">What is your name?</label><br><br>
+          <input id="name" name="name" type="text" />
+
+        </section>
+        <hr />
+
+        <!-- input for business name -->
+
+        <section class="business-name">
+
+          <label for="business-name">What is your business name?</label><br><br>
+          <input id="business-name" name="business-name" type="text" />
+
+        </section>
+        <hr />
+
+        <!-- input for email -->
+
+        <section class="email">
+
+          <label for="email">What is your email?</label><br><br>
+          <input id="email" name="email" type="text" />
+
+        </section>
+        <hr />
+
+        <!-- input for where they found me -->
+
+        <section class="referral">
+
+          <label for="referral">How did you find me?</label><br><br>
+          <input id="referral" id="referral" type="text" list="can-be-found" />
+          <datalist id="can-be-found">
+            <option value="Facebook"></option>
+            <option value="Instagram"></option>
+            <option value="LinkedIn"></option>
+          </datalist><br>
+
+          <span class="hint">hint: If there are multiple places you saw me, pick the most recent</span>
+
+        </section>
+        <hr />
+
+        <!-- input for services they are interested in -->
+
+        <section class="service-interest">
+
+          <span>What services are you interested in?</span>
+          <br><br>
+
+          <label for="technical-maintenance">Technical Maintenance</label>
+          <input type="checkbox" name="service" id="technical-maintenance" value="technical-maintenance" />
+
+          <label for="relationship-marketing">Relationship Marketing</label>
+          <input type="checkbox" name="service" id="relationship-marketing" value="relationship-marketing" />
+          
+          <label for="organization">Technical Maintenance</label>
+          <input type="checkbox" name="service" id="organization" value="organization" />
+
+        </section>
+
+      </form>
+
+      <footer>
+        <span>&copy Essentially Maria.</span>
+      </footer>
+    </section>
+
+  </section>
+
+</body>
+
+</html>

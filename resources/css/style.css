@@ -1,0 +1,78 @@
+body {
+
+  width: 100%;
+  color: rgb(199, 199, 199);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+section #form {
+  margin: 14px auto;
+  width: 550px;
+  text-align: center;
+  background-color: black;
+}
+
+#form #logo {
+  width: 45%;
+  background-color: black;
+}
+
+form {
+  text-align: left;
+  padding: 16px;
+  margin: 0 0 30px;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 26px;
+}
+
+label {
+  background-color: black;
+}
+
+hr {
+  
+  border: solid 1px rgb(214, 214, 214);
+  width: 300px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+input {
+  width: 90%;
+}
+
+.user-name, .business-name, .email {
+  margin: 18px 0;
+}
+
+.referral input {
+  margin-bottom: 6px
+}
+
+.hint {
+  color: grey;
+  font-size: 11px;
+}
+
+/* need help aligning input checkboxes with code below*/
+
+input[type=checkbox] {
+  vertical-align: px;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  padding-bottom: 12px;
+  padding-left: 8px;
+  text-align: left;
+  font-size: 10px
+
+}
